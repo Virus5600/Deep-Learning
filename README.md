@@ -13,7 +13,7 @@ As always, python repos need specific libraries and versions to work properly.
 - Seaborn 0.13.2
 - Scikit-Learn 1.6.1
 
-For the actual full list of requirements, see [`requirements.txt`](./requirements.txt) file.
+For the actual full list of requirements, see [`requirements.txt`](./requirements.txt) file for Conda, and the [`pip-requirements.txt`](./pip-requirements.txt) for pip.
 
 ## Datasets Source(s)
 
