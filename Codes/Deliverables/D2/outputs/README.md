@@ -18,6 +18,14 @@ Whereas:
 
 The directories serves as a group on what configuration the model is using, allowing easier identification of the outputs.
 
+**Directory List**:
+
+- [`original`](#original)
+- [`thee-conv2d`](#three-conv2d)
+- [`no-reduced-lr`](#no-reduced-lr)
+- [`no-dropout-and-batchnorm`](#no-dropout-and-batchnorm)
+- [`initial`](#initial)
+
 ### `original`
 
 The `original` directory is the final configuration, which has the highest rating of them all.
@@ -117,6 +125,9 @@ ImageDataGenerator(
 )
 ```
 
+**NOTE:**
+For the `original`'s entire code, please refer to the [`index notebook`](./../index.ipynb).
+
 ### `three-conv2d`
 
 `three-conv2d` serves as a directory output for the 2nd best configuration. Its only difference from the [`original`](#original) was that the model here uses three `Conv2D` instead of the original`s four.
@@ -126,3 +137,13 @@ All its other configurations stayed the same.
 ### `no-reduced-lr`
 
 `no-reduced-lr` is the 3rd to the last configuration I did prior to [`three-conv2d`](#three-conv2d). It has the same model architecture as the `three-conv2d`, but without the `ReduceLROnPlateau` callback, which actually significantly reduced its accuracy.
+
+### `no-dropout-and-batchnorm`
+
+The `no-dropout-and-batchnorm` uses the [`no-reduced-lr`](#no-reduced-lr) configuration, but without the `Dropout` and `BathNormalization` regularization. This is the one of the configurations I've used prior to the addition of the said normalization to improve its accuracy and output.
+
+### `initial`
+
+`initial` is the last `output` directory. It holds the output for the very first configuration used in this deliverable.
+
+It was the same as [`no-dropout-and-batchnorm`](#no-dropout-and-batchnorm) but this time, the `steps_per_epoch` is now a fixed value, along with the `validation_steps`.
