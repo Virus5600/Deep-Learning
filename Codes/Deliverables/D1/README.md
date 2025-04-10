@@ -1,6 +1,6 @@
 # Deliverable #1
 
-First assignment that tackles the Perceptron and Neural Networks.
+First assignment that tackles the [Perceptron and Neural Networks](/Codes/Samples/01%20-%20Neural%20Network/).
 
 ## Instructions
 
