@@ -140,8 +140,7 @@ All its other configurations stayed the same.
 
 ### `no-dropout-and-batchnorm`
 
-The `no-dropout-and-batchnorm` uses the [`no-reduced-lr`](#no-reduced-lr) configuration, but without the `Dropout` and `BathNormalization` regularization. This is the one of the configurations I've used prior to the addition of the said normalization to improve its accuracy and output.
-
+The `no-dropout-and-batchnorm` uses the [`no-reduced-lr`](#no-reduced-lr) configuration, but without the `Dropout` and `BatchNormalization` regularization. This is one of the configurations I've used prior to the addition of the said normalization to improve its accuracy and output.
 ### `initial`
 
 `initial` is the last `output` directory. It holds the output for the very first configuration used in this deliverable.
