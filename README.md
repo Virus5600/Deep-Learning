@@ -21,3 +21,4 @@ For the actual full list of requirements, see [`requirements.txt`](./requirement
 	- [Deliverables #1](/Codes/Deliverables/D1/) - [Optical Recognition of Handwritten Digits](https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits)
 - [Papers with Code](https://paperswithcode.com/dataset/cifar-10)
 	- [Deliverable #2](/Codes/Deliverables/D2/) - [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
+	- [Deliverable #4](/Codes/Deliverables/D4/) - [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
